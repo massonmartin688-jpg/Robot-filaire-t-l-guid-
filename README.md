@@ -13,7 +13,8 @@ J'ai mesuré les valeurs de résistance aux bornes de la gâchette d'origine.
 J'ai ensuite déconnecté cette gâchette pour la remplacer par mon propre circuit.
 
 2. La substitution par un Potentiomètre Numérique
-Pour simuler l'appui du doigt de manière électronique, j'utilise un Digital Potentiometer (Digipot).
+Pour simuler l'appui du doigt de manière électronique, j'utilise un Digital Potentiometer numérique .
+![Mon module LoRa](image/potentiomètre%20numérique.png)
 
 Ce composant reçoit des ordres de mon microcontrôleur.
 
