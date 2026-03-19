@@ -25,6 +25,8 @@ Cela permet un contrôle ultra-précis de la vitesse (de 0 à 100%) sans risque 
 3. Le pilotage Longue Portée (LoRa)
 Pour commander le tout, j'ai choisi la technologie LoRa :
 
+![Mon module LoRa](image/module%20lora1.png)
+
 Portée : Je peux piloter la machine à travers plusieurs murs ou à très grande distance, là où le Bluetooth s'arrêterait.
 
 Sécurité : Mon code surveille la connexion. Si je perds le signal radio, le potentiomètre numérique revient instantanément à zéro pour arrêter la perceuse par sécurité.
