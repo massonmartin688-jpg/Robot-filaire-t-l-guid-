@@ -1,11 +1,12 @@
 # Voici comment j'ai réussi à prendre le contrôle électronique d'une perceuse HiKOKI pour la piloter à distance via le protocole LoRa.
 
-L'idée de départ
+
 L'objectif était de remplacer l'interaction physique avec la gâchette par une commande numérique sans fil, tout en conservant l'intelligence du variateur de vitesse d'origine de la machine. Plutôt que de modifier la puissance, j'ai choisi de "tromper" le cerveau de la perceuse.
 
 Ce que j'ai mis en place :
 1. Le décodage de la gâchette (Reverse Engineering)
 En démontant la perceuse, j'ai identifié que la gâchette n'est rien d'autre qu'un potentiomètre linéaire. Elle envoie une valeur de résistance variable au contrôleur interne.
+![Mon module LoRa](image/potentiomètre%20linéaire%20hikoki.png)
 
 J'ai mesuré les valeurs de résistance aux bornes de la gâchette d'origine.
 
