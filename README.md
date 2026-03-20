@@ -7,7 +7,7 @@ Ce que j'ai mis en place :
 1. Le décodage de la gâchette (Reverse Engineering)
 En démontant la perceuse, j'ai identifié que la gâchette n'est rien d'autre qu'un potentiomètre linéaire. Elle envoie une valeur de résistance variable au contrôleur interne.
 ![Mon module LoRa](image/potentiomètre%20linéaire%20hikoki.png)
-
+![Mon module LoRa](image/gachette%20perceuse.JPEG)
 J'ai mesuré les valeurs de résistance aux bornes de la gâchette d'origine.
 
 J'ai ensuite déconnecté cette gâchette pour la remplacer par mon propre circuit.
@@ -31,5 +31,13 @@ Portée : Je peux piloter la machine à travers plusieurs murs ou à très grand
 
 Sécurité : Mon code surveille la connexion. Si je perds le signal radio, le potentiomètre numérique revient instantanément à zéro pour arrêter la perceuse par sécurité.
 
+Évolution du projet : La Tyrolienne Électrique
+Définition de l'objectif Une fois le système de motorisation opérationnel, l'objectif a évolué vers la création d'une tyrolienne électrique autonome. Le défi consistait à concevoir un support mobile capable de supporter son propre poids tout en intégrant une propulsion mécanique efficace.
 
+Modélisation 3D (Fusion 360) Pour garantir la précision de l'assemblage, j'ai modélisé l'intégralité de la structure sur Fusion 360. Cette étape a permis de simuler l'encombrement des composants et de prévoir les points de fixation nécessaires au mécanisme de traction.
+![Mon module LoRa](image/modélisation%20du%20mécanisme.png)
+![Mon module LoRa](image/modélisation%20du%20mécanisme%202.png)
+Construction et défi technique Partant de zéro, j'ai assemblé la structure pour y incorporer une perceuse comme moteur. La difficulté majeure a été de concevoir un système de transmission capable de tracter une charge lourde sans que le câble ne glisse sur la poulie motrice, ce qui a nécessité une attention particulière sur l'adhérence et la tension du fil.
+![Mon module LoRa](image/tyrolienne%20mécanisme.png)
+![Mon module LoRa](image/projet%20final.png)
 ![Mon module LoRa](image/perceuse%20et%20arduino%202%20.png)
