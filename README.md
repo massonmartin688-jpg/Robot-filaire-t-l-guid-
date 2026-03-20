@@ -38,16 +38,13 @@ Modélisation 3D (Fusion 360) Pour garantir la précision de l'assemblage, j'ai 
 ![Mon module LoRa](image/modélisation%20du%20mécanisme.png)
 ![Mon module LoRa](image/modélisation%20du%20mécanisme%202.png)
 Construction et défi technique Partant de zéro, j'ai assemblé la structure pour y incorporer une perceuse comme moteur. La difficulté majeure a été de concevoir un système de transmission capable de tracter une charge lourde sans que le câble ne glisse sur la poulie motrice, ce qui a nécessité une attention particulière sur l'adhérence et la tension du fil.
-Voici une illustration De la partie mécanique Que j'ai construit de A à Z : 
 
-
+Voici une illustration de la partie mécanique que j'ai construite de A à Z : 
 ![Mon module LoRa](image/tyrolienne%20mécanisme.png)
 
-
-Voici une photo Prise Pendant que le système fonctionnait c'est a dire la tyrolienne Était capable de faire marche avant marche arrière et de faire varier sa vitesse Par l'intermédiaire de la Perceuse
+Voici une photo prise pendant que le système était opérationnel : la tyrolienne était alors capable d'effectuer des marches avant et arrière, tout en faisant varier sa vitesse par l'intermédiaire de la perceuse.
 ![Mon module LoRa](image/projet%20final.png)
 
 
-
-Voici une illustration des premiers tests De commande marche avant marche arrière de la perceuse grâce à des relais:
+Voici une illustration des premiers tests de commande marche avant / marche arrière de la perceuse, réalisés grâce à des relais :
 ![Mon module LoRa](image/perceuse%20et%20arduino%202%20.png)
