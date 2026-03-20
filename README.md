@@ -33,6 +33,10 @@ Portée : Je peux piloter la machine à travers plusieurs murs ou à très grand
 
 Sécurité : Mon code surveille la connexion. Si je perds le signal radio, le potentiomètre numérique revient instantanément à zéro pour arrêter la perceuse par sécurité.
 
+# Voici une illustration des premiers tests de commande marche avant / marche arrière de la perceuse, réalisés grâce à des relais :
+![Mon module LoRa](image/perceuse%20et%20arduino%202%20.png)
+
+
 # Évolution du projet : La Tyrolienne Électrique
 Définition de l'objectif Une fois le système de motorisation opérationnel, l'objectif a évolué vers la création d'une tyrolienne électrique autonome. Le défi consistait à concevoir un support mobile capable de supporter son propre poids tout en intégrant une propulsion mécanique efficace.
 
@@ -45,9 +49,7 @@ Construction et défi technique Partant de zéro, j'ai assemblé la structure po
 # Voici une illustration de la partie mécanique que j'ai construite de A à Z : 
 ![Mon module LoRa](image/tyrolienne%20mécanisme.png)
 
-Voici une photo prise pendant que le système était opérationnel : la tyrolienne était alors capable d'effectuer des marches avant et arrière, tout en faisant varier sa vitesse par l'intermédiaire de la perceuse.
+# Voici une photo prise pendant que le système était opérationnel : la tyrolienne était alors capable d'effectuer des marches avant et arrière, tout en faisant varier sa vitesse par l'intermédiaire de la perceuse.
 ![Mon module LoRa](image/projet%20final.png)
 
 
-# Voici une illustration des premiers tests de commande marche avant / marche arrière de la perceuse, réalisés grâce à des relais :
-![Mon module LoRa](image/perceuse%20et%20arduino%202%20.png)
