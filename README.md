@@ -1,3 +1,4 @@
+# Mon projet un peu atypique : J'ai conçu une tyrolienne électrique télécommandée à partir d'une perceuse
 # Voici comment j'ai réussi à prendre le contrôle électronique d'une perceuse HiKOKI pour la piloter à distance via le protocole LoRa.
 # J'ai détourné cette perceuse pour en faire le système de propulsion d'une tyrolienne électrique que j'ai conçue intégralement.
 
